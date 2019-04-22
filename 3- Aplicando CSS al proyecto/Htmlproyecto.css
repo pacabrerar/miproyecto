@@ -1,0 +1,80 @@
+h1{
+	color:#00ff00;
+	color:rgb(41,128,185);
+	font-size: 2em
+	}
+
+h2{
+	color:#00ff00;
+	color:white;
+	font-size: 1em}
+
+
+#color_titulos{
+  color:red;}
+
+.Sentirse_vivo h2{
+
+	  background-color:green;
+	}
+
+.Sentirse_vivo{
+		margin: 5px 10px;
+	  border-right-style: dotted;
+	  border-color: green;
+	}
+
+.rojo { color: red ; }
+.green{color: green;}
+
+.Donde_ir h2{
+	background-color:green;
+}
+
+.Donde_ir{
+	border-right-style: dotted;
+	border-color: green;
+}
+
+.Historia_de_aventureros h2{
+	background-color:green;
+}
+.Historia_de_aventureros{
+	border-right-style: dotted;
+	border-color: green;
+}
+.Que_hacer h2{
+	background-color:green;
+}
+
+.Que_hacer{
+	border-right-style: dotted;
+	border-color: green;
+}
+
+.Nosotros h2{
+	background-color:green;
+}
+
+.Nosotros{
+	border-right-style: dotted;
+	border-color: green;
+}
+
+.porque_patagonia_aventura h2{
+	background-color:green;
+}
+
+.porque_patagonia_aventura{
+	border-right-style: dotted;
+	border-color: green;
+}
+
+.Entrenamiento_ascesoria h2{
+	background-color:green;
+}
+
+.Entrenamiento_ascesoria {
+	border-right-style: dotted;
+	border-color: green;
+}
