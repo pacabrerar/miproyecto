@@ -1,2 +1,2 @@
 # miproyecto
-Mi proyecto de clases
+Mi proyecto de emprendimiento 
