@@ -1,0 +1,88 @@
+/* Mobile Styles */
+@media only screen and (max-width: 400px ) {
+body {
+background-color: #F09A9D ; /* Red */
+}
+}
+/* Tablet Styles */
+@media only screen and (min-width: 401px ) and
+(max-width: 960px ) {
+body {
+background-color: #F5CF8E; /* Yellow */
+}
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px ) {
+body {
+background-color:#B2D6FF ; /* Blue */
+}
+}
+
+#color_titulos{
+  color:red;}
+
+.Sentirse_vivo h2{
+
+	  background-color:green;
+	}
+
+.Sentirse_vivo{
+		margin: 5px 10px;
+	  border-right-style: dotted;
+	  border-color: green;
+	}
+
+.rojo { color: red ; }
+.green{color: green;}
+
+.Donde_ir h2{
+	background-color:green;
+}
+
+.Donde_ir{
+	border-right-style: dotted;
+	border-color: green;
+}
+
+.Historia_de_aventureros h2{
+	background-color:green;
+}
+.Historia_de_aventureros{
+	border-right-style: dotted;
+	border-color: green;
+}
+.Que_hacer h2{
+	background-color:green;
+}
+
+.Que_hacer{
+	border-right-style: dotted;
+	border-color: green;
+}
+
+.Nosotros h2{
+	background-color:green;
+}
+
+.Nosotros{
+	border-right-style: dotted;
+	border-color: green;
+}
+
+.porque_patagonia_aventura h2{
+	background-color:green;
+}
+
+.porque_patagonia_aventura{
+	border-right-style: dotted;
+	border-color: green;
+}
+
+.Entrenamiento_ascesoria h2{
+	background-color:green;
+}
+
+.Entrenamiento_ascesoria {
+	border-right-style: dotted;
+	border-color: green;
+}
