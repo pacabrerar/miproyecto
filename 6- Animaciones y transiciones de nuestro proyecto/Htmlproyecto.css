@@ -1,0 +1,291 @@
+/*Agregar animaciones, transformaciones y/o gradientes a nuestro proyecto.*/
+/* Transicion*/
+.transicion{
+
+  -moz-animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 2s;
+  -moz-animation-name: transicion;
+  -webkit-animation-name: transicion;
+  animation-name: transicion;
+  -moz-animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+
+}
+
+.transicion H2{
+background-color:green;
+
+}
+
+@-webkit-keyframes transicion {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+
+  to {
+   margin-left:0%;
+   width:100%;
+ }
+}
+
+/* menu */
+
+#menu ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+}
+
+/* items del menu */
+
+#menu ul li {
+ background-color:#2e518b;
+}
+
+/* enlaces del menu */
+
+#menu ul a {
+ display:block;
+ color:#fff;
+ text-decoration:none;
+ font-weight:400;
+ font-size:15px;
+ padding:10px;
+ font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ text-transform:uppercase;
+ letter-spacing:1px;
+}
+
+/* items del menu */
+
+#menu ul li {
+ position:relative;
+ float:left;
+ margin:0;
+ padding:0;
+}
+
+/* efecto al pasar el ratón por los items del menu */
+
+#menu ul li:hover {
+ background:#5b78a7;
+}
+
+/* menu desplegable */
+
+#menu ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ background:#eee;
+ padding:0;
+}
+
+/* items del menu desplegable */
+
+#menu ul ul li {
+ float:none;
+ width:250px
+}
+
+/* enlaces de los items del menu desplegable */
+
+#menu ul ul a {
+ line-height:120%;
+ padding:10px 20px;
+}
+
+/* items del menu desplegable al pasar el ratón */
+
+#menu ul li:hover > ul {
+ display:block;
+}
+
+h1{
+	color:#00ff00;
+	color:rgb(41,128,185);
+	font-size: 2em
+	}
+
+h2{
+	color:#00ff00;
+	color:white;
+	font-size: 1em}
+
+/*Color de titulos*/
+
+#color_titulos{
+  color:red;}
+
+#color_mensaje{
+
+  background-color:green;
+	  border-color: green;
+	color: black;
+
+}
+
+	body{
+		background-image: url(http://www.aerototana.org/wp-content/uploads/2014/05/cielo.jpg);
+		background-position: top left;
+		background-repeat: repeat;
+
+	}
+.Sentirse_vivo h2{
+
+	  background-color:green;
+	}
+
+.Sentirse_vivo{
+	  border-right-style: dotted;
+	  border-color: green;
+	}
+.Partners h2{
+	  background-color:green;
+	}
+
+.Partners{
+
+	  border-right-style: dotted;
+	  border-color: green;
+	}
+
+.Donde_ir h2{
+	background-color:green;
+}
+
+.Donde_ir li{
+	background-color:green;
+  color: white;
+
+}
+
+.Donde_ir{
+	border-right-style: dotted;
+	border-color: green;
+
+}
+
+.Donde_ir img{
+  border: green 4px solid;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+}
+
+.Historia_de_aventureros h2{
+	background-color:green;
+}
+.Historia_de_aventureros{
+	border-right-style: dotted;
+	border-color: green;
+
+}
+.Historia_de_aventureros img{
+  border: green 4px solid;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.Que_hacer h2{
+	background-color:green;
+}
+
+.Que_hacer{
+	border-right-style: dotted;
+	border-color: green;
+}
+
+.Nosotros h2{
+	background-color:green;
+}
+
+.Nosotros{
+	border-right-style: dotted;
+	border-color: green;
+}
+.Nosotros img{
+  border: green 4px solid;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.porque_patagonia_aventura h2{
+	background-color:green;
+}
+
+.porque_patagonia_aventura{
+	border-right-style: dotted;
+	border-color: green;
+}
+
+.porque_patagonia_aventura img{
+  border: green 4px solid;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.Entrenamiento_ascesoria h2{
+	background-color:green;
+}
+
+.Entrenamiento_ascesoria {
+	border-right-style: dotted;
+	border-color: green;
+}
+.Entrenamiento_ascesoria img{
+  border: green 4px solid;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+
+/* sub menu*/
+
+/* Transicion*/
+
+/*
+h1 {
+width : 1000px ;
+height : 1000px ;
+animation-name : un_efecto;
+animation-iteration-count : infinite ;
+animation-timing-function : ease-in ;
+animation-duration : 2s ;
+animation-delay : 0s ;
+}
+
+@keyframes un_efecto {
+0%{ width : 100px ; }
+25%{ width : 100px ; }
+50%{ width : 100px ;
+background-color : red ; }
+75%{ width : 200px ;}
+100%{ width : 200px ;
+background-color : green ;}
+}*/ /*esta llave cierra el un_efecto */
+/*
+legend {
+width : 100px ;
+height : 100px ;
+background : red ;
+transition : width 10s ;
+}
+div:hover {
+width : 300px ;
+}*/
